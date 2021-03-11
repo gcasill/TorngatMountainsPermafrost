@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dct": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "locn": "http://www.w3.org/ns/locn#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://schema.org/item",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "time": "http://www.w3.org/2006/time",
+    "vcard": "http://www.w3.org/2006/vcard/ns#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://open.canada.ca/dataset/fca3a8b2-bc4f-45df-b1f3-75d20e9ef6d7/resource/0819e64a-60de-4952-97bf-39e59199df92",
+      "dcat:accessURL": {
+        "@id": "https://124gc.sharepoint.com/:x:/s/external/_layouts/15/download.aspx/EccqmuHo4OZDmUgTOMcJDNEBDi18xZPe84aK6QQVYFcC7w?e=1QM7rW"
+      },
+      "dct:format": "CSV",
+      "dct:language": [
+        "en",
+        "fr"
+      ],
+      "dct:title": "Permafrost active layer depth - Torngat Mountains",
+      "schema:itemtype": {
+        "@id": "dcat:Distribution"
+      }
+    },
+    {
+      "@id": "_:Nfc948e1ffec14ad59e1e4d6af7c243ed",
+      "schema:itemtype": {
+        "@id": "vcard:Organization"
+      },
+      "vcard:hasEmail": "darroch.whitaker@pc.gc.ca"
+    },
+    {
+      "@id": "https://open.canada.ca/organization/B578A1C3-FDCF-4F36-89E2-3B2E75020C43",
+      "foaf:name": "Parks Canada | Parcs Canada",
+      "schema:itemtype": {
+        "@id": "foaf:Organization"
+      }
+    },
+    {
+      "@id": "https://open.canada.ca/dataset/fca3a8b2-bc4f-45df-b1f3-75d20e9ef6d7",
+      "dcat:contactPoint": {
+        "@id": "_:Nfc948e1ffec14ad59e1e4d6af7c243ed"
+      },
+      "dcat:distribution": {
+        "@id": "https://open.canada.ca/dataset/fca3a8b2-bc4f-45df-b1f3-75d20e9ef6d7/resource/0819e64a-60de-4952-97bf-39e59199df92"
+      },
+      "dcat:landingPage": {
+        "@id": "{u'fr': u'https://www.pc.gc.ca/fr/pn-np/nl/torngats', u'en': u'https://www.pc.gc.ca/en/pn-np/nl/torngats'}"
+      },
+      "dct:accrualPeriodicity": "P1Y",
+      "dct:description": "The Torngat National Park monitors the permafrost depth in the Ivitak wateshed. A temperature cable with 8 thermistors at depths from 0.5 to 7 m deep was installed in August 2010, and has been recording ground temperature at each depth at 8 hour intervals since that time. The site is a deep alluvial silt deposit near the mouth of the Ivitak / McCornick River, on the south shore of Nachvak Fiord. Temperatures for the first year or more are unusually warm, likely a result of warming caused by water jet drilling during installation. Temperatures down to 1.5 m deep show strong seasonal fluctuations, as expected in the active layer. Deeper temperatures are much more stable, and are apparently coldest at ~2 m depth, but it is not entirely clear that the site supports permafrost except possibly in a narrow lens from 2-3 m deep. ",
+      "dct:identifier": "fca3a8b2-bc4f-45df-b1f3-75d20e9ef6d7",
+      "dct:issued": {
+        "@type": "xsd:dateTime",
+        "@value": "2018-06-20T14:41:37.875289"
+      },
+      "dct:modified": {
+        "@type": "xsd:dateTime",
+        "@value": "2018-06-20T14:41:37.875296"
+      },
+      "dct:publisher": {
+        "@id": "https://open.canada.ca/organization/B578A1C3-FDCF-4F36-89E2-3B2E75020C43"
+      },
+      "dct:title": "Permafrost active layer depth - Torngat Mountains",
+      "schema:itemtype": {
+        "@id": "dcat:Dataset"
+      }
+    }
+  ]
+}
