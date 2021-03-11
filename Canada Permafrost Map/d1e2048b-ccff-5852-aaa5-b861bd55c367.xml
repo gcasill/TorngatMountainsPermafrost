@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:locn="http://www.w3.org/ns/locn#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:schema="http://schema.org/"
+>
+  <rdf:Description rdf:about="https://open.canada.ca/dataset/d1e2048b-ccff-5852-aaa5-b861bd55c367">
+    <dcat:landingPage rdf:resource="{u'fr': u'http://geogratis.gc.ca/api/fr/nrcan-rncan/ess-sst/d1e2048b-ccff-5852-aaa5-b861bd55c367', u'en': u'http://geogratis.gc.ca/api/en/nrcan-rncan/ess-sst/d1e2048b-ccff-5852-aaa5-b861bd55c367'}"/>
+    <dcat:distribution>
+      <rdf:Description rdf:about="https://open.canada.ca/dataset/d1e2048b-ccff-5852-aaa5-b861bd55c367/resource/a333e091-97ff-49de-bb54-9db0d51df485">
+        <dcat:accessURL rdf:resource="http://ftp.geogratis.gc.ca/pub/nrcan_rncan/raster/atlas_5_ed/fra/environment/land/mcr4177.jpg"/>
+        <dct:language>en</dct:language>
+        <schema:itemtype rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <dct:language>fr</dct:language>
+        <dct:format>JPG</dct:format>
+        <dct:title>Download French JPG through HTTP</dct:title>
+      </rdf:Description>
+    </dcat:distribution>
+    <dct:accrualPeriodicity>as_needed</dct:accrualPeriodicity>
+    <dct:identifier>d1e2048b-ccff-5852-aaa5-b861bd55c367</dct:identifier>
+    <dcat:distribution>
+      <rdf:Description rdf:about="https://open.canada.ca/dataset/d1e2048b-ccff-5852-aaa5-b861bd55c367/resource/75b4d123-e59c-4679-b628-f407bc5b4af7">
+        <dct:title>Download English JPG through HTTP</dct:title>
+        <schema:itemtype rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <dct:format>JPG</dct:format>
+        <dcat:accessURL rdf:resource="http://ftp.geogratis.gc.ca/pub/nrcan_rncan/raster/atlas_5_ed/eng/environment/land/mcr4177.jpg"/>
+        <dct:language>en</dct:language>
+        <dct:language>fr</dct:language>
+      </rdf:Description>
+    </dcat:distribution>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-09-25T12:40:48.089654</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-26T16:24:38.553222</dct:modified>
+    <dct:spatial>
+      <rdf:Description rdf:nodeID="N707631ba797541a09f94a5cb9b66d53a">
+        <locn:geometry rdf:datatype="https://www.iana.org/assignments/media-types/application/vnd.geo+json">{"type": "Polygon", "coordinates": [[[-175.0, 90.0], [-175.0, 40.0], [-30.0, 40.0], [-30.0, 90.0], [-175.0, 90.0]]]}</locn:geometry>
+        <schema:itemtype rdf:resource="http://purl.org/dc/terms/Location"/>
+        <locn:geometry rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-175.0000 90.0000, -175.0000 40.0000, -30.0000 40.0000, -30.0000 90.0000, -175.0000 90.0000))</locn:geometry>
+      </rdf:Description>
+    </dct:spatial>
+    <dcat:distribution>
+      <rdf:Description rdf:about="https://open.canada.ca/dataset/d1e2048b-ccff-5852-aaa5-b861bd55c367/resource/badb8966-487b-4904-9520-0445e4fb34f3">
+        <dcat:accessURL rdf:resource="http://ftp.geogratis.gc.ca/pub/nrcan_rncan/raster/atlas_5_ed/fra/environment/land/mcr4177.pdf"/>
+        <schema:itemtype rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <dct:language>fr</dct:language>
+        <dct:language>en</dct:language>
+        <dct:title>Download French PDF through HTTP</dct:title>
+        <dct:format>PDF</dct:format>
+      </rdf:Description>
+    </dcat:distribution>
+    <dcat:distribution>
+      <rdf:Description rdf:about="https://open.canada.ca/dataset/d1e2048b-ccff-5852-aaa5-b861bd55c367/resource/70f3601e-ea7c-4af5-b56e-a68cd042f42c">
+        <dct:language>fr</dct:language>
+        <schema:itemtype rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <dct:title>Download English PDF through HTTP</dct:title>
+        <dct:language>en</dct:language>
+        <dct:format>PDF</dct:format>
+        <dcat:accessURL rdf:resource="http://ftp.geogratis.gc.ca/pub/nrcan_rncan/raster/atlas_5_ed/eng/environment/land/mcr4177.pdf"/>
+      </rdf:Description>
+    </dcat:distribution>
+    <dct:title>Permafrost</dct:title>
+    <schema:itemtype rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:publisher>
+      <rdf:Description rdf:about="https://open.canada.ca/organization/9391E0A2-9717-4755-B548-4499C21F917B">
+        <schema:itemtype rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <foaf:name>Natural Resources Canada | Ressources naturelles Canada</foaf:name>
+      </rdf:Description>
+    </dct:publisher>
+    <dcat:contactPoint>
+      <rdf:Description rdf:nodeID="Nd2bb0c7bc35849438d299e31987d1d43">
+        <vcard:hasEmail>NRCan.geogratis-geogratis.RNCan@canada.ca</vcard:hasEmail>
+        <schema:itemtype rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+      </rdf:Description>
+    </dcat:contactPoint>
+    <dct:description>Contained within the 5th Edition (1978 to 1995) of the National Atlas of Canada has a large that shows the extent of permafrost and abundance of ground ice; mapping units are based on physiographic regions. Point data on map give permafrost temperature and thickness for specific sites. The second, smaller, map shows the mean annual ground temperatures. Graphs show four shallow temperature profiles (to 25 metres depth), and four deep temperature profiles (to several hundred metres depth).</dct:description>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,154 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dct": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "locn": "http://www.w3.org/ns/locn#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://schema.org/item",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "time": "http://www.w3.org/2006/time",
+    "vcard": "http://www.w3.org/2006/vcard/ns#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://open.canada.ca/dataset/d1e2048b-ccff-5852-aaa5-b861bd55c367/resource/75b4d123-e59c-4679-b628-f407bc5b4af7",
+      "dcat:accessURL": {
+        "@id": "http://ftp.geogratis.gc.ca/pub/nrcan_rncan/raster/atlas_5_ed/eng/environment/land/mcr4177.jpg"
+      },
+      "dct:format": "JPG",
+      "dct:language": [
+        "en",
+        "fr"
+      ],
+      "dct:title": "Download English JPG through HTTP",
+      "schema:itemtype": {
+        "@id": "dcat:Distribution"
+      }
+    },
+    {
+      "@id": "https://open.canada.ca/dataset/d1e2048b-ccff-5852-aaa5-b861bd55c367/resource/badb8966-487b-4904-9520-0445e4fb34f3",
+      "dcat:accessURL": {
+        "@id": "http://ftp.geogratis.gc.ca/pub/nrcan_rncan/raster/atlas_5_ed/fra/environment/land/mcr4177.pdf"
+      },
+      "dct:format": "PDF",
+      "dct:language": [
+        "en",
+        "fr"
+      ],
+      "dct:title": "Download French PDF through HTTP",
+      "schema:itemtype": {
+        "@id": "dcat:Distribution"
+      }
+    },
+    {
+      "@id": "https://open.canada.ca/organization/9391E0A2-9717-4755-B548-4499C21F917B",
+      "foaf:name": "Natural Resources Canada | Ressources naturelles Canada",
+      "schema:itemtype": {
+        "@id": "foaf:Organization"
+      }
+    },
+    {
+      "@id": "https://open.canada.ca/dataset/d1e2048b-ccff-5852-aaa5-b861bd55c367/resource/a333e091-97ff-49de-bb54-9db0d51df485",
+      "dcat:accessURL": {
+        "@id": "http://ftp.geogratis.gc.ca/pub/nrcan_rncan/raster/atlas_5_ed/fra/environment/land/mcr4177.jpg"
+      },
+      "dct:format": "JPG",
+      "dct:language": [
+        "fr",
+        "en"
+      ],
+      "dct:title": "Download French JPG through HTTP",
+      "schema:itemtype": {
+        "@id": "dcat:Distribution"
+      }
+    },
+    {
+      "@id": "https://open.canada.ca/dataset/d1e2048b-ccff-5852-aaa5-b861bd55c367",
+      "dcat:contactPoint": {
+        "@id": "_:N7143cc873ae84d438497fd35572082c6"
+      },
+      "dcat:distribution": [
+        {
+          "@id": "https://open.canada.ca/dataset/d1e2048b-ccff-5852-aaa5-b861bd55c367/resource/70f3601e-ea7c-4af5-b56e-a68cd042f42c"
+        },
+        {
+          "@id": "https://open.canada.ca/dataset/d1e2048b-ccff-5852-aaa5-b861bd55c367/resource/75b4d123-e59c-4679-b628-f407bc5b4af7"
+        },
+        {
+          "@id": "https://open.canada.ca/dataset/d1e2048b-ccff-5852-aaa5-b861bd55c367/resource/badb8966-487b-4904-9520-0445e4fb34f3"
+        },
+        {
+          "@id": "https://open.canada.ca/dataset/d1e2048b-ccff-5852-aaa5-b861bd55c367/resource/a333e091-97ff-49de-bb54-9db0d51df485"
+        }
+      ],
+      "dcat:landingPage": {
+        "@id": "{u'fr': u'http://geogratis.gc.ca/api/fr/nrcan-rncan/ess-sst/d1e2048b-ccff-5852-aaa5-b861bd55c367', u'en': u'http://geogratis.gc.ca/api/en/nrcan-rncan/ess-sst/d1e2048b-ccff-5852-aaa5-b861bd55c367'}"
+      },
+      "dct:accrualPeriodicity": "as_needed",
+      "dct:description": "Contained within the 5th Edition (1978 to 1995) of the National Atlas of Canada has a large that shows the extent of permafrost and abundance of ground ice; mapping units are based on physiographic regions. Point data on map give permafrost temperature and thickness for specific sites. The second, smaller, map shows the mean annual ground temperatures. Graphs show four shallow temperature profiles (to 25 metres depth), and four deep temperature profiles (to several hundred metres depth).",
+      "dct:identifier": "d1e2048b-ccff-5852-aaa5-b861bd55c367",
+      "dct:issued": {
+        "@type": "xsd:dateTime",
+        "@value": "2016-09-25T12:40:48.089654"
+      },
+      "dct:modified": {
+        "@type": "xsd:dateTime",
+        "@value": "2017-01-26T16:24:38.553222"
+      },
+      "dct:publisher": {
+        "@id": "https://open.canada.ca/organization/9391E0A2-9717-4755-B548-4499C21F917B"
+      },
+      "dct:spatial": {
+        "@id": "_:N838357aaab0948f8a51d903446a3e8f9"
+      },
+      "dct:title": "Permafrost",
+      "schema:itemtype": {
+        "@id": "dcat:Dataset"
+      }
+    },
+    {
+      "@id": "https://open.canada.ca/dataset/d1e2048b-ccff-5852-aaa5-b861bd55c367/resource/70f3601e-ea7c-4af5-b56e-a68cd042f42c",
+      "dcat:accessURL": {
+        "@id": "http://ftp.geogratis.gc.ca/pub/nrcan_rncan/raster/atlas_5_ed/eng/environment/land/mcr4177.pdf"
+      },
+      "dct:format": "PDF",
+      "dct:language": [
+        "fr",
+        "en"
+      ],
+      "dct:title": "Download English PDF through HTTP",
+      "schema:itemtype": {
+        "@id": "dcat:Distribution"
+      }
+    },
+    {
+      "@id": "_:N838357aaab0948f8a51d903446a3e8f9",
+      "locn:geometry": [
+        {
+          "@type": "gsp:wktLiteral",
+          "@value": "POLYGON ((-175.0000 90.0000, -175.0000 40.0000, -30.0000 40.0000, -30.0000 90.0000, -175.0000 90.0000))"
+        },
+        {
+          "@type": "https://www.iana.org/assignments/media-types/application/vnd.geo+json",
+          "@value": "{\"type\": \"Polygon\", \"coordinates\": [[[-175.0, 90.0], [-175.0, 40.0], [-30.0, 40.0], [-30.0, 90.0], [-175.0, 90.0]]]}"
+        }
+      ],
+      "schema:itemtype": {
+        "@id": "dct:Location"
+      }
+    },
+    {
+      "@id": "_:N7143cc873ae84d438497fd35572082c6",
+      "schema:itemtype": {
+        "@id": "vcard:Organization"
+      },
+      "vcard:hasEmail": "NRCan.geogratis-geogratis.RNCan@canada.ca"
+    }
+  ]
+}
