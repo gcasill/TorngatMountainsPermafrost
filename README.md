@@ -13,7 +13,7 @@ Parks Canada. (2017). Permafrost active layer depth—Torngat Mountains [.csv]. 
 
 ## Repository
 
-The Arctic Permafrost Geospatial Centre [(APGC)](https://apgc.awi.de/), an open access data catalogue, hosted and maintained by the ALfred-Wegener-Institut (AWI)'s Helmholtz Centre for Polar and Marine Research would be ideal discipline specific repository to contact in order for data to be hosted and best used to contribute to global permafrost data.
+The Arctic Permafrost Geospatial Centre [(APGC)](https://apgc.awi.de/), an open access data catalogue, hosted and maintained by the Alfred-Wegener-Institut (AWI)'s Helmholtz Centre for Polar and Marine Research would be ideal discipline specific repository to contact in order for data to be hosted and best used to contribute to global permafrost data.
 
 ## Files
 
