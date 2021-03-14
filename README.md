@@ -36,6 +36,8 @@ Related geospatial and permafrost data discussed within the bounds of the analys
 
 Heginbottom, J. (1995). Permafrost map of Canada, Version 1. National Atlas of Canada. [https://nsidc.org/data/GGD604/versions/1](https://nsidc.org/data/GGD604/versions/1).
 
+Canada Permafrost Map folder
+
 Metadata (d1e2048b-ccff-5852-aaa5-b861bd55c367.jsonld) .JSONLD
 
 Metadata (d1e2048b-ccff-5852-aaa5-b861bd55c367) .XML
