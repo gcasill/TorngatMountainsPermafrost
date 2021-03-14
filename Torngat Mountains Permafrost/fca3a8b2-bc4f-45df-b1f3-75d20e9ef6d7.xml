@@ -31,7 +31,7 @@
         <schema:itemtype rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
       </rdf:Description>
     </dct:publisher>
-    <dct:accrualPeriodicity>P1Y</dct:accrualPeriodicity>
+    <dct:accrualPeriodicity>freq:annual</dct:accrualPeriodicity>
     <dcat:contactPoint>
       <rdf:Description rdf:nodeID="N4dbfb8dfc4fe4c3f90b1386bc16c5d2f">
         <schema:itemtype rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
