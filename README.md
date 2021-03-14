@@ -53,5 +53,15 @@ Data (Canada_Permafrost_ENG_PDF) .PDF
 
 Data (Canada_Permafrost_FR_PDF) .PDF
 
+## Metadata File Types
+
+Metadata file types include .XML, .JSON, and .JSONLD.
+
+.XML is a schema to describe data in a hierarchal format. It's human and machine readable. It can be used to store data and be used in a programming environment.
+
+.JSON is also a descriptive and readable scheuma, but provides users with the ability to store JavaScript objects in text format. JavaScript objects can be sent and received via .JSON. It is shorter, quicker to read, and is easier to fetch data from.
+
+.JSONLD is similar to .JSON but uses .JSON to serialize Linked Data. .JSONLD uses Linked Data in web programming environments, can be used to build interoperable web services, and uses Linked Data in engines that use .JSON.
+
 ## Open Government Licence--Canada
 [Open Government Licence](https://open.canada.ca/en/open-government-licence-canada)
